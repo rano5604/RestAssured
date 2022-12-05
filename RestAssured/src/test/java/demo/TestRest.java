@@ -5,9 +5,11 @@ import org.testng.annotations.Test;
 public class TestRest {
 	
 	
-	@Test
+//	@Test
 	public void testPost_01() {
 		System.out.println("hello");
 	}
+	
+	
 
 }
