@@ -3,16 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="demo.TestRest">
+      <class name="demo.authentication.TokenBasedAuthetication">
         <methods>
-<<<<<<< HEAD
-          <include name="testPost_02" invocation-numbers="0 1 2"/>
-=======
-          <include name="testPost"/>
+          <include name="test_Staff"/>
           <include name="init"/>
->>>>>>> b7d8c557c8d2b002bc52c01c8493d399ed578f44
         </methods>
-      </class> <!-- demo.TestRest -->
+      </class> <!-- demo.authentication.TokenBasedAuthetication -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
