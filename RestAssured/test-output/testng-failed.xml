@@ -5,7 +5,12 @@
     <classes>
       <class name="demo.TestRest">
         <methods>
+<<<<<<< HEAD
           <include name="testPost_02" invocation-numbers="0 1 2"/>
+=======
+          <include name="testPost"/>
+          <include name="init"/>
+>>>>>>> b7d8c557c8d2b002bc52c01c8493d399ed578f44
         </methods>
       </class> <!-- demo.TestRest -->
     </classes>
