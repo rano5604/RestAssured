@@ -13,10 +13,8 @@ public class TestRest extends ExcelDataProvider {
 	}
 	
 	@Test(dataProvider = "ExcelData")
-	public void testPost_02(Object name, Object roll) {
-		System.out.println("Name:"+name.toString());
+	public void testPost_02(String name, String roll) {
+		System.out.println("Name:"+name);
 		System.out.println("Roll:"+roll);
 	}
-	
-
 }

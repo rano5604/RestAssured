@@ -30,7 +30,7 @@ public class ReadExcelData {
 	}
 	
 	public Object getCellData(int row,int col) {
-		return sheet.getRow(row).getCell(col);
+		return sheet.getRow(row).getCell(col).toString();
 	}
 
 }
